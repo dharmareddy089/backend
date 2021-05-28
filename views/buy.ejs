@@ -1,0 +1,40 @@
+<%- include("./partials/header"); %>
+<div class="container car py-5">
+    <h1>credit card</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <hr>
+        <form>
+            <p>CARD HOLDER</p>
+            <input type="text" class="form-control" placeholder="name" >
+              <p>CARD NUMBER</p>
+              <input type="text" class="form-control" placeholder="number">
+        </form>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <p>EXPIRE DATE</p>
+              <input type="text" class="form-control" placeholder="MM">
+          </div>
+          <div class="col-lg-4 ">
+            <p>year</p>
+          <input type="text" class="form-control" placeholder="YY">
+          </div>
+          <div class="col-lg-4">
+            <p>cvc</p>
+             <input type="text" class="form-control" placeholder="cvc">
+          </div>
+        </div>
+        <hr>
+        <div class="row py-3">
+          <div class="col-lg-6 col-sm-6 text-dark text-dark">
+           <a href="#" class="btn btn-lg btn-danger">cancel</a>
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <a href="#" class="btn  btn-success btn-lg">pay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<%- include("./partials/footer"); %>

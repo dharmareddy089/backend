@@ -1,0 +1,138 @@
+.page-loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all .15s .2s ease-in-out;
+  transition: all .15s .2s ease-in-out;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9999;
+}
+.page-loading.active {
+  opacity: 1;
+  visibility: visible;
+}
+.page-loading-inner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  opacity: 0;
+}
+.page-loading.active > .page-loading-inner {
+  opacity: 1;
+}
+.page-loading-inner > span {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #737491;
+}
+.page-spinner {
+  display: inline-block;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-bottom: .75rem;
+  vertical-align: text-bottom;
+  border: .15em solid #766df4;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: spinner .75s linear infinite;
+  animation: spinner .75s linear infinite;
+}
+@-webkit-keyframes spinner {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.head
+{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.fas:hover
+{
+  color:pink;
+}
+.navbar-brand
+{
+  width: 30%;
+}
+.jack
+{
+background-image: url(/images/banner.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left;
+
+}
+.fun
+{
+  font-family:'Noto Sans JP', sans-serif;
+  font-size: 12pt;
+  font-weight: 600;
+}
+.k
+{
+  color: #F08080;
+}
+.kong
+{
+  background-color: 	#3b444b;
+}
+.lucy
+{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color:		#F08080;
+
+}
+.lol
+{
+  background-color: white;
+}
+.fas,.fab
+{
+  color: 	#F08080;
+}
+.pet
+{
+  font-size: 15pt;
+  display: flex;
+}
+.ko
+{
+  background-color: #F08080;
+}
+.car
+{
+  background-image: url("https://indovoiceover.com/wp-content/uploads/2016/11/Payment-Gateway-Featured-Image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.jao
+{
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-fresh-and-simple-women-s-shoes-promotion-banner-image_145853.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
